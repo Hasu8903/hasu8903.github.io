@@ -1,0 +1,422 @@
+*{margin:0; padding:0}
+a{ text-decoration: none; color: rgb(15, 14, 14);}
+ul li{ list-style: none;}
+
+body{ font-family: arial; font-size: 11px; }
+
+.wrapper_container{
+    /* position: fixed; dữ menu*/
+    background-color: rgb(255, 255, 255);
+
+    margin: 0px auto;
+  
+}
+
+
+ /* hover của phần menu*/
+
+#head{max-width: 1300px;  margin: 0px auto;}
+#head{ background: #ffffff;}
+#logo{ float: left; padding-top: 10px;}
+#logo img{height: 42px;
+margin-top: 5px;
+margin-left: 10px;}
+#main_menu>li{ float: left; }
+#main_menu>li:last-child{ border-right: none;}
+#main_menu li{ position: relative;} /* căn menu 2 ra giữa*/
+#main_menu>li a{display: block; text-transform: none; padding: 10px;} /* khoảng cách trên dưới của menu đa cấp*/
+#main_menu>li>a{ text-transform: uppercase;}
+#main_menu>li>a{ display: block; padding: 28px;}
+#main_menu li .sub_menu{ position: absolute; display: none; /* thu gọn menu lại*/
+width: 200px;
+background: #e4e1e1;
+top: 0px;
+left: 100%;
+}
+
+#main_menu li:hover>.sub_menu { display: block;}
+#main_menu>li>.sub_menu{top: 80px;position: absolute;
+left: 0px;}
+#main_menu li:hover{
+    border-bottom: 1px solid #000000;
+    padding: 1px 0;
+}
+#main_content { min-height: 450px;}
+#main_menu{
+margin-left: 28.5%;
+}
+
+
+
+ /* css phân icon*/
+
+.pick{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: right;
+    
+    float: right;
+    grid-gap: 30px;
+    font-size: 18px;
+    font-weight: 400
+}
+.pick :hover{color: #c78665;}
+
+
+ /* banner và chia cột*/
+
+
+/* phần viewwww */
+
+
+/*bannnnnnnnerrrrrrrrrrrr*/
+
+
+/*nnnnnnnnerrrrrrrrrrrr*/
+.content{
+
+  margin-left: 8%;
+}
+#banner2{
+  grid-gap: 30px;
+  margin-top: 10%;
+
+  line-height: 6;
+}
+.home2{
+  display: flex;
+  grid-gap: 2%;
+}
+#ruler2{margin-top: 3%;}
+#texthome{font-size: 17px;
+  line-height: 1.4em;
+  color:#818491;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Cormorant,serif;
+  display: flex;
+}
+.text-1{
+  max-width: 1100px;
+}
+.text-2{
+  margin-left: 5%;
+}
+
+.rowss{
+  display: flex;
+  margin-top: 8%;
+}
+.text-1{
+  margin-right: 10%;
+}
+#texth2{
+  font-size: 33px;
+  font-weight: 300;
+  font-family: Muli,sans-serif;
+  color: #221b1b;
+}
+#texx{color: #818491;
+font-size: 15px;
+font-family: Muli,sans-serif;
+margin-top: 7px;}
+
+#textpik{
+  color: #c78665;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Cormorant,serif;
+  font-size: 16px;
+}
+.iconn{
+  display: flex;
+margin-top: 10px;
+  text-align: right;
+  color: #818491;
+  grid-gap: 20px;
+  font-size: 18px;
+  font-weight: 400
+}
+.iconn :hover{
+  color: #343f55;
+}
+.textt{
+  margin-top: 6%;
+}
+
+
+
+
+#footer{
+  margin-top: 10%;
+  background: #f4f8f9;
+  padding: 60px;
+  padding-bottom: 60px;
+}
+
+.rows5{
+  margin-left: 5%;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    padding-top: px;
+}
+.col-1 p{
+  font-size: 12px;
+  margin-top: 10px;
+
+}
+.col0 p{
+  margin-top: 10px;
+  font-size: 19px;
+}
+#ms{
+  color: #c78665;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Cormorant,serif;
+  font-size: 20px;
+}
+#textblu{
+  color: #818491;;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+#texth3 {font-size: 15px; color: #818491;;font-weight: 500; line-height: 1.7em;
+  letter-spacing: .14em;}
+#textblu2{font-size: 15px; color: #343f55; line-height: 1.9em;}
+#textm{font-size: 15px; color: #c78665;
+  font-weight: 400;
+  font-style: italic;
+  font-family: Cormorant,serif;}
+#icon{
+  color: #c78665;
+  font-size: 23px;
+}
+#textblu:hover{
+  color: #343f55;;
+}
+#textm:hover{color: #343f55;}
+#menuanh{display: flex;}
+li:hover img {
+  
+  opacity: 0.5;
+}
+.col3{margin-right: 10px;}
+
+.slideshow-container {
+  max-width: 1000px;
+ 
+  margin: auto;
+}
+/* Ẩn các slider */
+.mySlides {
+    display: none;
+}
+/* Định dạng nội dung Caption */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* định dạng các chấm chuyển đổi các slide */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* khi được hover, active đổi màu nền */
+.active, .dot:hover {
+  background-color: #ffffff;
+}
+/* Thêm hiệu ứng khi chuyển đổi các slide */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#texthome:hover{color: #c78665;}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 28px;
+color: #24A19C;
+text-align: center;
+margin: 40px 0;
+position: relative;
+}
+.heading::after{
+content: "";
+position: absolute;
+width: 100px;
+height: 5px;
+background-color: #24A19C;
+top: 45px;
+left: 47%;
+}
+header{
+    position: fixed;
+    top:  0;
+    right: 0;
+    left: 0;
+}
+
+
+.thongbao{
+    height: 50px;
+    text-align: center;
+    background: #24A19C ;
+    color: #fff;
+    line-height: 50px;
+}
+.menu-logo{
+position: relative ;
+background: #ededed ;
+height: 70px;
+}
+.menu-logo .logo{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+.menu-logo nav{
+    position: absolute;
+    top: 5px;
+    right: 400px;
+}
+.menu-logo nav a{
+text-decoration: none;
+color: black;
+line-height: 60px;
+ margin : 0 25px;
+}
+.menu-logo nav a:hover{
+    color: cadetblue;
+   font-weight: bold;
+transition: all .5s linear  ;
+}
+.menu-logo .login{
+    font: 16px;
+    border: 1px sloid black;
+    border-radius: 70%;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+/* css cho login */
+.login-form{
+    margin-top: 150px;
+    width: 60%;
+margin: 0 auto;
+margin-top: 150px;
+}
+.login-form form{
+display: flex;
+/* dàn các thẻ thành hàng dọc */
+flex-direction: column;
+
+}
+.login-form form input{
+    padding: 15px 15px;
+    border: 1px solid gray;
+    outline: none;
+    margin: 15px 0;
+ border-radius: 5px;
+ transition: all .2s linear;
+ font-family: 'Quicksand', sans-serif;
+}
+.login-form form input:focus{
+    border: 1px solid #24A19C;
+}
+
+.login-form form button{
+padding: 15px;
+background: #fff;
+border: 1px solid #24A19C;
+font-size: 18px;
+font-weight: bold;
+border-radius: 5px;
+color: #24A19C;
+}
+.login-form form button:hover{
+background: #24A19C;
+color: #fff;
+transition: all .4s linear;
+}
+.link-login{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 30px 0;
+}
+.link-login:hover{
+    color: #24A19C;
+    transition: all .4s linear;
+}
+/* footer */
+footer{
+    width: 100%;
+    background: #24A19C;
+    color: #fff;
+    text-align: center;
+}
+footer .footer-item{
+    width: 30% ;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+footer .footer-item h3{
+    margin: 30px 0;
+}
+footer .link a{
+display: block;
+text-decoration: none;
+color: #fff;
+margin: 3px 0;
+}
+.tacgia{
+   background: #2aadd4; 
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+}
+.tacgia p{
+    margin-top: 10px;
+}
